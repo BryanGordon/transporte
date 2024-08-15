@@ -1,7 +1,11 @@
+import { Header } from './components/Header'
+import { Servicios } from './components/Servicios'
+
 function App () {
   return (
     <main>
-      App
+      <Header />
+      <Servicios />
     </main>
   )
 }
