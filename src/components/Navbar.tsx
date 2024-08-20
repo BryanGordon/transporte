@@ -1,7 +1,9 @@
+import '../Navbar.css'
+
 export function Navbar () {
   return (
     <nav>
-      <ul>
+      <ul className='nav-item-container'>
         <li className='nav-items'>
           Home
         </li>
