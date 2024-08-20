@@ -1,8 +1,11 @@
 import '../ImgStyles.css'
-import Backgroundheader from '../assets/transport-4.jpg'
+import Backgroundheader from '../assets/banner-1.jpg'
 
 export function ImgHeader () {
   return (
-    <img className='img-header' alt='transport-img' />
+    <>
+      <span>TRANSPORTES</span>
+      <img className='img-header' src={Backgroundheader} alt='transport-img' />
+    </>
   )
 }
