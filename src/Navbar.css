@@ -9,3 +9,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
+.nav-items {
+  color: bisque;
+}
