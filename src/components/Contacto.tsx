@@ -1,7 +1,7 @@
 export function Contacto () {
   return (
     <article>
-      Seccion de contactos
+      <h1>Contactos</h1>
     </article>
   )
 }
