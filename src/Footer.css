@@ -1,4 +1,12 @@
 footer {
+  height: 50px;
   background-color: blueviolet;
   margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-container {
+  display: inline;
+  margin: 16px 20px 30px 0;
 }
