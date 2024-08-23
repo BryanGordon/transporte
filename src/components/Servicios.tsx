@@ -1,6 +1,8 @@
 import '../Servicios.css'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
-import Img from '../assets/banner-5.jpg'
+import Img1 from '../assets/transportes-1.jpg'
+import Img2 from '../assets/transporte-2.jpg'
+import Img3 from '../assets/transporte-4.jpg'
 
 export function Servicios () {
   return (
@@ -23,7 +25,7 @@ export function Servicios () {
         <div className='mb-10'>
           <h2>Servicios de transporte de mercancias</h2>
           <div className='data'>
-            <img className='data-img' src={Img} alt='imagen-1' />
+            <img className='data-img' src={Img1} alt='imagen-1' />
             <p className='img-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Molestiae provident sed rerum porro placeat numquam iusto. Itaque deleniti
               saepe quo assumenda ea perferendis adipisci quibusdam aperiam quas, rerum
@@ -39,14 +41,14 @@ export function Servicios () {
               velit excepturi laborum, laudantium amet adipisci mollitia numquam, iusto illum
               debitis inventore necessitatibus minima qui, doloremque unde dolorem eius illo?
             </p>
-            <img className='data-img' src={Img} alt='imagen-2' />
+            <img id='re' className='data-img' src={Img2} alt='imagen-2' />
           </div>
         </div>
 
         <div className='mb-10'>
           <h2>Servicios de carga pesada</h2>
           <div className='data'>
-            <img className='data-img' src={Img} alt='imagen-3' />
+            <img className='data-img' src={Img3} alt='imagen-3' />
             <p className='img-1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
               ipsam ea! Quisquam officiis quidem fuga necessitatibus. Eveniet officia,
               architecto sit minus ab velit, vel optio sequi consequuntur ratione nesciunt vero?
