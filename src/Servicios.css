@@ -12,10 +12,14 @@
 .data-img {
   max-width: 50%;
   max-height: 50%;
+  width: 750px;
+  height: 450px;
+  border-radius: 15px;
 }
 
 .img-1 {
  padding-right: 90px;
  width: 45%;
+ align-content: center;
 
 }
