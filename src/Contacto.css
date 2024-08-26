@@ -3,3 +3,8 @@
   margin: 0 auto;
   padding: 30px 0;
 }
+
+.socials-container {
+  display: flex;
+  justify-content: space-evenly;
+}
