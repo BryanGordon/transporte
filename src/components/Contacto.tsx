@@ -21,13 +21,13 @@ export function Contacto () {
       <article>
         <h2>Nuestras redes sociales</h2>
         <div className='socials-container'>
-          <a href='https://google.com'>
+          <a href='https://www.whatsapp.com/'>
             <WhatsappIcon />
           </a>
-          <a href='https://google.com'>
+          <a href='https://www.instagram.com/'>
             <InstagramIcon />
           </a>
-          <a href='https://google.com'>
+          <a href='https://www.facebook.com/'>
             <FacebookIcon />
           </a>
         </div>
