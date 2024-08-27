@@ -1,11 +1,11 @@
 export function FacebookIcon () {
   return (
     <svg
-      width='24'
-      height='24'
+      width='55'
+      height='55'
       viewBox='0 0 24 24'
       fill='none'
-      stroke='currentColor'
+      stroke='#5264E0'
       stroke-width='1'
       stroke-linecap='round'
       stroke-linejoin='round'
