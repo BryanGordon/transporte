@@ -1,12 +1,12 @@
 export function InstagramIcon () {
   return (
     <svg
-      width='24'
-      height='24'
+      width='55'
+      height='55'
       viewBox='0 0 24 24'
       fill='none'
-      stroke='currentColor'
-      stroke-width='2'
+      stroke='#DB467F'
+      stroke-width='1.7'
       stroke-linecap='round'
       stroke-linejoin='round'
     >
