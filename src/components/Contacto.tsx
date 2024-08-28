@@ -6,7 +6,7 @@ import { FacebookIcon } from '@/icons/FacebookIcon'
 
 export function Contacto () {
   return (
-    <article>
+    <article id='contactos'>
       <h1>Contactos</h1>
       <h2>Sede principal</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempore fugiat
@@ -22,13 +22,13 @@ export function Contacto () {
         <h2>Nuestras redes sociales</h2>
         <div className='socials-container'>
           <a href='https://www.whatsapp.com/'>
-            <WhatsappIcon />
+            <WhatsappIcon width={55} height={55} strokeWidth={1.8} />
           </a>
           <a href='https://www.instagram.com/'>
-            <InstagramIcon />
+            <InstagramIcon width={55} height={55} strokeWidth={1.7} />
           </a>
           <a href='https://www.facebook.com/'>
-            <FacebookIcon />
+            <FacebookIcon width={55} height={55} strokeWidth={1} />
           </a>
         </div>
       </article>
