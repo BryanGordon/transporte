@@ -5,16 +5,24 @@ export function Navbar () {
     <nav>
       <ul className='nav-item-container'>
         <li className='nav-items'>
-          Home
+          <a href='#home'>
+            Home
+          </a>
         </li>
         <li className='nav-items'>
-          Servicios
+          <a href='#servicios'>
+            Servicios
+          </a>
         </li>
         <li className='nav-items'>
-          Contactos
+          <a href='#contactos'>
+            Contactos
+          </a>
         </li>
         <li className='nav-items'>
-          Ubicación
+          <a href='#ubicacion'>
+            Ubicación
+          </a>
         </li>
       </ul>
     </nav>
