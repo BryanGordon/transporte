@@ -3,7 +3,9 @@ nav {
   height: 60px;
   background-color: #DEECFD;
   align-content: center;
-  
+  position: sticky;
+  top: 0;
+  right: 0;
 }
 
 .nav-item-container {
