@@ -1,25 +1,12 @@
 import '../Servicios.css'
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel'
 import Img1 from '../assets/transportes-1.jpg'
 import Img2 from '../assets/transporte-2.jpg'
 import Img3 from '../assets/transporte-4.jpg'
 
 export function Servicios () {
   return (
-    <article>
+    <article id='servicios'>
       <h1>Ofertamos diferentes tipos de servicios</h1>
-      <div className='container-carousel'>
-        {/*
-        <Carousel>
-          <CarouselContent>
-            <CarouselItem>Algo</CarouselItem>
-            <CarouselItem>Algo</CarouselItem>
-          </CarouselContent>
-          <CarouselNext />
-          <CarouselPrevious />
-        </Carousel>
-        */}
-      </div>
 
       <div className='data-container'>
         <div className='mb-10'>
@@ -37,11 +24,11 @@ export function Servicios () {
         <div className='mb-10'>
           <h2>Servicios de logistica</h2>
           <div className='data'>
-            <p className='img-1'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit
+            <p className='img-1-re'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit
               velit excepturi laborum, laudantium amet adipisci mollitia numquam, iusto illum
               debitis inventore necessitatibus minima qui, doloremque unde dolorem eius illo?
             </p>
-            <img id='re' className='data-img' src={Img2} alt='imagen-2' />
+            <img className='data-img' src={Img2} alt='imagen-2' />
           </div>
         </div>
 
