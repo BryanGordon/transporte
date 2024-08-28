@@ -1,14 +1,20 @@
-export function WhatsappIcon () {
+interface Props {
+  width: number
+  height: number
+  strokeWidth: number
+}
+
+export function WhatsappIcon ({ width, height, strokeWidth }: Props) {
   return (
     <svg
-      width='55'
-      height='55'
+      width={width}
+      height={height}
       viewBox='0 0 24 24'
       fill='none'
       stroke='#29E058'
-      stroke-width='1.8'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth={strokeWidth}
+      strokeLinecap='round'
+      strokeLinejoin='round'
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9' />
