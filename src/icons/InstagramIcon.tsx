@@ -1,14 +1,20 @@
-export function InstagramIcon () {
+interface Props {
+  width: number
+  height: number
+  strokeWidth: number
+}
+
+export function InstagramIcon ({ width, height, strokeWidth }: Props) {
   return (
     <svg
-      width='55'
-      height='55'
+      width={width}
+      height={height}
       viewBox='0 0 24 24'
       fill='none'
       stroke='#DB467F'
-      stroke-width='1.7'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth={strokeWidth}
+      strokeLinecap='round'
+      strokeLinejoin='round'
     >
       <path stroke='none' d='M0 0h24v24H0z' fill='none' />
       <path d='M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z' />
