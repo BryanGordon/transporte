@@ -1,4 +1,7 @@
+import { WhatsappIcon } from '@/icons/WhatsappIcon'
 import '../Footer.css'
+import { InstagramIcon } from '@/icons/InstagramIcon'
+import { FacebookIcon } from '@/icons/FacebookIcon'
 
 export function Footer () {
   return (
@@ -9,13 +12,13 @@ export function Footer () {
 
       <div className='icons-container'>
         <a target='_blank' rel='noreferrer' href='https://www.google.com'>
-          <i>icon 1</i>
+          <WhatsappIcon width={24} height={24} strokeWidth={1.5} />
         </a>
         <a target='_blank' rel='noreferrer' href='https://www.google.com'>
-          <i>icon 2</i>
+          <InstagramIcon width={24} height={24} strokeWidth={1.4} />
         </a>
         <a target='_blank' rel='noreferrer' href='https://www.google.com'>
-          <i>icon 3</i>
+          <FacebookIcon width={24} height={24} strokeWidth={1} />
         </a>
       </div>
 
