@@ -1,6 +1,6 @@
 export function Ubicacion () {
   return (
-    <article>
+    <article id='ubicacion'>
       <h1>Ubicación</h1>
       <iframe
         className='w-[90%] mt-0 mx-auto mb-10'
