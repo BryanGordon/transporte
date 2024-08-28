@@ -3,7 +3,7 @@ import { Navbar } from './Navbar'
 
 export function Header () {
   return (
-    <header>
+    <header id='home'>
       <ImgHeader />
       <Navbar />
     </header>
