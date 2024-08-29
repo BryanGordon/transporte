@@ -28,3 +28,10 @@
   width: 45%;
   align-content: center;
 }
+
+
+/* Media querys */
+
+@media (width <= 400px) {
+  
+}
