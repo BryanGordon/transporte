@@ -12,3 +12,9 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
+/* Media querys */
+
+@media (width <= 400px) {
+  
+}
