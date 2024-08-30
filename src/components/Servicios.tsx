@@ -13,7 +13,7 @@ export function Servicios () {
           <h2>Servicios de transporte de mercancias</h2>
           <div className='data'>
             <img className='data-img' src={Img1} alt='imagen-1' />
-            <p className='img-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <p className='data-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Molestiae provident sed rerum porro placeat numquam iusto. Itaque deleniti
               saepe quo assumenda ea perferendis adipisci quibusdam aperiam quas, rerum
               odit recusandae.
@@ -24,7 +24,7 @@ export function Servicios () {
         <div className='mb-10'>
           <h2>Servicios de logistica</h2>
           <div className='data'>
-            <p className='img-1-re'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit
+            <p className='data-text-re'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit
               velit excepturi laborum, laudantium amet adipisci mollitia numquam, iusto illum
               debitis inventore necessitatibus minima qui, doloremque unde dolorem eius illo?
             </p>
@@ -36,7 +36,7 @@ export function Servicios () {
           <h2>Servicios de carga pesada</h2>
           <div className='data'>
             <img className='data-img' src={Img3} alt='imagen-3' />
-            <p className='img-1'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
+            <p className='data-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
               ipsam ea! Quisquam officiis quidem fuga necessitatibus. Eveniet officia,
               architecto sit minus ab velit, vel optio sequi consequuntur ratione nesciunt vero?
             </p>
