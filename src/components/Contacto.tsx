@@ -15,7 +15,7 @@ export function Contacto () {
         eligendi rerum, iste in. Distinctio magnam labore voluptates voluptatem!
       </p>
       <div className='img-container'>
-        <img className='min-w-[450px] min-h-[250px] rounded-xl' src={Img} alt='img-store' />
+        <img className='contacto-img' src={Img} alt='img-store' />
       </div>
 
       <article>
