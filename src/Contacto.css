@@ -8,3 +8,21 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+.contacto-img {
+  min-width: 450px;
+  min-height: 250px;
+  border-radius: 12px;
+}
+
+/* Media querys */
+
+@media (width <= 500px) {
+
+  .img-container {
+    width: 100%;
+  }
+  .contacto-img {
+    min-width: 0;
+  }
+}
