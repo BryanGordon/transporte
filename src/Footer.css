@@ -16,9 +16,3 @@ footer {
 .icons-container > a {
   padding: 0 6px;
 }
-
-/* Media querys */
-
-@media (width <= 400px) {
-  
-}
