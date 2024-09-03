@@ -30,9 +30,8 @@
 }
 
 
-/* Media querys */
-
 @media (width <= 1100px) {
+
   .data-text {
     padding-right: 0;
   }
@@ -66,6 +65,7 @@
 }
 
 @media (width <= 500px) {
+
   .data {
     flex-direction: column;
   }
