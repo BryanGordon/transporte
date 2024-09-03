@@ -6,11 +6,14 @@ import Img3 from '../assets/transporte-4.jpg'
 export function Servicios () {
   return (
     <article id='servicios'>
+
       <h1>Ofertamos diferentes tipos de servicios</h1>
 
       <div className='data-container'>
+
         <div className='mb-10'>
           <h2>Servicios de transporte de mercancias</h2>
+
           <div className='data'>
             <img className='data-img' src={Img1} alt='imagen-1' />
             <p className='data-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -19,10 +22,12 @@ export function Servicios () {
               odit recusandae.
             </p>
           </div>
+
         </div>
 
         <div className='mb-10'>
           <h2>Servicios de logistica</h2>
+
           <div className='data'>
             <p className='data-text-re'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa reprehenderit
               velit excepturi laborum, laudantium amet adipisci mollitia numquam, iusto illum
@@ -30,10 +35,12 @@ export function Servicios () {
             </p>
             <img className='data-img' src={Img2} alt='imagen-2' />
           </div>
+
         </div>
 
         <div className='mb-10'>
           <h2>Servicios de carga pesada</h2>
+
           <div className='data'>
             <img className='data-img' src={Img3} alt='imagen-3' />
             <p className='data-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil,
@@ -41,6 +48,7 @@ export function Servicios () {
               architecto sit minus ab velit, vel optio sequi consequuntur ratione nesciunt vero?
             </p>
           </div>
+
         </div>
 
       </div>
