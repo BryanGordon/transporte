@@ -4,8 +4,15 @@
   object-fit: fill;
 }
 
-span {
+.header-title {
+  display: flex;
+  width: 100%;
   position: absolute;
-  color: white;
-  margin: 30px 45vw;
+  justify-content: center;
+}
+
+.title-text {
+  position: absolute;
+  color: rgb(241, 241, 196);
+  margin: 12vh 35%;
 }
