@@ -1,13 +1,14 @@
-import { WhatsappIcon } from '@/icons/WhatsappIcon'
 import '../Footer.css'
+import { WhatsappIcon } from '@/icons/WhatsappIcon'
 import { InstagramIcon } from '@/icons/InstagramIcon'
 import { FacebookIcon } from '@/icons/FacebookIcon'
 
 export function Footer () {
   return (
     <footer>
-      <div>
-        <span className='text-slate-800 ml-5 mt-4 p-0'>Derechos reservados</span>
+
+      <div className='content-center'>
+        <span className='text-slate-800 ml-10 p-0'>Derechos reservados</span>
       </div>
 
       <div className='icons-container'>
