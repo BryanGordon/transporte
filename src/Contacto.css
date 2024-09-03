@@ -17,6 +17,12 @@
 
 /* Media querys */
 
+@media (width >= 500px) and (width <= 750px) {
+  .img-container {
+    width: 100%;
+  }
+}
+
 @media (width <= 500px) {
 
   .img-container {
