@@ -7,6 +7,7 @@ import { FacebookIcon } from '@/icons/FacebookIcon'
 export function Contacto () {
   return (
     <article id='contactos'>
+
       <h1>Contactos</h1>
       <h2>Sede principal</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempore fugiat
@@ -31,7 +32,9 @@ export function Contacto () {
             <FacebookIcon width={55} height={55} strokeWidth={1} />
           </a>
         </div>
+
       </article>
+
     </article>
   )
 }
