@@ -1,7 +1,7 @@
 import '../Servicios.css'
-import Img1 from '../assets/transportes-1.jpg'
-import Img2 from '../assets/transporte-2.jpg'
-import Img3 from '../assets/transporte-4.jpg'
+import Img1 from '../assets/transportes-1.webp'
+import Img2 from '../assets/transporte-2.webp'
+import Img3 from '../assets/transporte-4.webp'
 
 export function Servicios () {
   return (
