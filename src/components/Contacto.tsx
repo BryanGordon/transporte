@@ -1,8 +1,8 @@
-import { WhatsappIcon } from '@/icons/WhatsappIcon'
 import '../Contacto.css'
-import Img from '../assets/transportes-1.jpg'
+import { WhatsappIcon } from '@/icons/WhatsappIcon'
 import { InstagramIcon } from '@/icons/InstagramIcon'
 import { FacebookIcon } from '@/icons/FacebookIcon'
+import Img from '../assets/transportes-1.webp'
 
 export function Contacto () {
   return (
