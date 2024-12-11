@@ -9,6 +9,11 @@
   justify-content: space-evenly;
 }
 
+.icons:hover {
+  scale: 1.3;
+  transition: all ease-out .3s;
+}
+
 .contacto-img {
   min-width: 450px;
   min-height: 250px;
