@@ -1,5 +1,5 @@
 import '../ImgStyles.css'
-import Backgroundheader from '../assets/banner-1.jpg'
+import Backgroundheader from '../assets/banner-1.webp'
 
 export function ImgHeader () {
   return (
