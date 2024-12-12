@@ -1,3 +1,5 @@
+import { motion } from 'motion/react'
+
 import { Contacto } from './components/Contacto'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
