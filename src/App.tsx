@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from 'motion/react'
+import { motion } from 'motion/react'
 
 import { Contacto } from './components/Contacto'
 import { Footer } from './components/Footer'
@@ -15,7 +15,6 @@ import { Ubicacion } from './components/Ubicacion'
 function App () {
   return (
     <main>
-      <AnimatePresence>
 
       <Header />
       <section>
@@ -36,7 +35,6 @@ function App () {
         <Ubicacion />
       </section>
       <Footer />
-      </AnimatePresence>
 
     </main>
   )
