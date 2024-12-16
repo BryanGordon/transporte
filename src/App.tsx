@@ -18,21 +18,18 @@ function App () {
 
       <Header />
       <section>
-      
-          <Servicios />
-
+        <Servicios />
       </section>
       <section>
-         < motion.div 
+        <motion.div
           whileInView={{ y: 50 }}
           viewport={{ amount: 0.3 }}
-          exit={{y: -50}}
-          >
-        <Contacto />
-      </motion.div>
+        >
+          <Contacto />
+        </motion.div>
       </section>
+
       <section>
-        <Ubicacion />
       </section>
       <Footer />
 
