@@ -30,6 +30,12 @@ function App () {
       </section>
 
       <section>
+        <motion.section
+          whileInView={{ y: 50 }}
+          viewport={{ amount: 0.3 }}
+        >
+          <Ubicacion />
+        </motion.section>
       </section>
       <Footer />
 
