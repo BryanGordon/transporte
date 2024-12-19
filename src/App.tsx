@@ -6,6 +6,7 @@ import { Header } from './components/Header'
 import { Servicios } from './components/Servicios'
 import { Ubicacion } from './components/Ubicacion'
 
+import { useStore } from './store/useStore'
 /**
  * Arreglar estructura del proyecto
  * Acabar de colocar las animaciones en la seccion de direccion y
@@ -24,6 +25,7 @@ function App () {
         <motion.div
           whileInView={{ y: 50 }}
           viewport={{ amount: 0.3 }}
+          transition={{ delay: 0.3 }}
         >
           <Contacto />
         </motion.div>
