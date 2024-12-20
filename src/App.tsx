@@ -5,8 +5,11 @@ import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Servicios } from './components/Servicios'
 import { Ubicacion } from './components/Ubicacion'
+import { useStore } from './store/useStore'
 
 function App () {
+  // const tt = useStore((state) => state.clicked)
+  const {clicked, setChangeClick} = useStore()
   const prueba = {
     y: {
       duration: 0.5,
@@ -21,14 +24,21 @@ function App () {
       <section>
         <Servicios />
       </section>
-      <motion.section
-        transition={prueba}
-        animate={{
-          y: ['0%', '5%', '0%']
-        }}
-      >
-        <Contacto />
-      </motion.section>
+      <section>
+        {
+        clicked ?
+          <motion.div
+            transition={prueba}
+            animate={{
+              y: ['0%', '5%', '0%']
+            }}
+          >
+            <Contacto />
+          </motion.div>
+        :
+          <Contacto />
+        }
+      </section>
 
       <section>
         <motion.section>
