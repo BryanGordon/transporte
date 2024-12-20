@@ -19,7 +19,7 @@ export function Navbar () {
         </li>
 
         <li className='nav-items'>
-          <a href='#contactos'>
+          <a href='#contactos' onClick={() => console.log('Pulsado')}>
             Contactos
           </a>
         </li>
