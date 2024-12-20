@@ -6,36 +6,32 @@ import { Header } from './components/Header'
 import { Servicios } from './components/Servicios'
 import { Ubicacion } from './components/Ubicacion'
 
-import { useStore } from './store/useStore'
-/**
- * Arreglar estructura del proyecto
- * Acabar de colocar las animaciones en la seccion de direccion y
- * analizar si colocar en la seccion de servicios.
- */
-
 function App () {
+  const prueba = {
+    y: {
+      duration: 0.5,
+      repeat: 0,
+      type: 'orchestation'
+    }
+  }
+
   return (
     <main>
-
       <Header />
       <section>
         <Servicios />
       </section>
-      <section>
-        <motion.div
-          whileInView={{ y: 50 }}
-          viewport={{ amount: 0.3 }}
-          transition={{ delay: 0.3 }}
-        >
-          <Contacto />
-        </motion.div>
-      </section>
+      <motion.section
+        transition={prueba}
+        animate={{
+          y: ['0%', '5%', '0%']
+        }}
+      >
+        <Contacto />
+      </motion.section>
 
       <section>
-        <motion.section
-          whileInView={{ y: 50 }}
-          viewport={{ amount: 0.3 }}
-        >
+        <motion.section>
           <Ubicacion />
         </motion.section>
       </section>
