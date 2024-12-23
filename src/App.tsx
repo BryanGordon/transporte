@@ -8,11 +8,11 @@ import { Ubicacion } from './components/Ubicacion'
 import { useStore } from './store/useStore'
 
 function App () {
-  // const tt = useStore((state) => state.clicked)
-  const {clicked, setChangeClick} = useStore()
-  const prueba = {
+  const clicked = useStore((state) => state.clicked)
+
+  const animation = {
     y: {
-      duration: 0.5,
+      duration: 0.6,
       repeat: 0,
       type: 'orchestation'
     }
@@ -22,28 +22,48 @@ function App () {
     <main>
       <Header />
       <section>
-        <Servicios />
-      </section>
-      <section>
         {
-        clicked ?
-          <motion.div
-            transition={prueba}
-            animate={{
-              y: ['0%', '5%', '0%']
-            }}
-          >
-            <Contacto />
-          </motion.div>
-        :
-          <Contacto />
+          clicked
+            ? <motion.div
+                transition={animation}
+                animate={{
+                  y: ['0', '5%', '0%']
+                }}
+              >
+                <Servicios />
+              </motion.div>
+            : <Servicios />
         }
       </section>
 
       <section>
-        <motion.section>
-          <Ubicacion />
-        </motion.section>
+        {
+        clicked
+          ? <motion.div
+              transition={animation}
+              animate={{
+                y: ['0%', '5%', '0%']
+              }}
+            >
+              <Contacto />
+            </motion.div>
+          : <Contacto />
+        }
+      </section>
+
+      <section>
+        {
+          clicked
+            ? <motion.div
+                transition={animation}
+                animate={{
+                  y: ['0%', '5%', '0%']
+                }}
+              >
+                <Ubicacion />
+              </motion.div>
+            : <Ubicacion />
+        }
       </section>
       <Footer />
 
