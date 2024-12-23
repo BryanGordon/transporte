@@ -16,7 +16,7 @@ export function Navbar () {
         </li>
 
         <li className='nav-items'>
-          <a href='#servicios'>
+          <a href='#servicios' onClick={() => setChangeClick()}>
             Servicios
           </a>
         </li>
@@ -28,7 +28,7 @@ export function Navbar () {
         </li>
 
         <li className='nav-items'>
-          <a href='#ubicacion'>
+          <a href='#ubicacion' onClick={() => setChangeClick()}>
             Ubicación
           </a>
         </li>
