@@ -1,15 +1,14 @@
-import { motion } from 'motion/react'
+// import { motion } from 'motion/react'
 
 import { Contacto } from './components/Contacto'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Servicios } from './components/Servicios'
 import { Ubicacion } from './components/Ubicacion'
-import { useStore } from './store/useStore'
+// import { useStore } from './store/useStore'
 
 function App () {
-  const clicked = useStore((state) => state.clicked)
-
+  /*
   const animation = {
     y: {
       duration: 0.6,
@@ -17,53 +16,20 @@ function App () {
       type: 'orchestation'
     }
   }
-
+*/
   return (
     <main>
       <Header />
       <section>
-        {
-          clicked
-            ? <motion.div
-                transition={animation}
-                animate={{
-                  y: ['0', '5%', '0%']
-                }}
-              >
-                <Servicios />
-              </motion.div>
-            : <Servicios />
-        }
+        <Servicios />
       </section>
 
       <section>
-        {
-        clicked
-          ? <motion.div
-              transition={animation}
-              animate={{
-                y: ['0%', '5%', '0%']
-              }}
-            >
-              <Contacto />
-            </motion.div>
-          : <Contacto />
-        }
+        <Contacto />
       </section>
 
       <section>
-        {
-          clicked
-            ? <motion.div
-                transition={animation}
-                animate={{
-                  y: ['0%', '5%', '0%']
-                }}
-              >
-                <Ubicacion />
-              </motion.div>
-            : <Ubicacion />
-        }
+        <Ubicacion />
       </section>
       <Footer />
 
