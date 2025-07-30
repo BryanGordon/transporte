@@ -1,9 +1,6 @@
 import '../Navbar.css'
-import { useStore } from '@/store/useStore'
 
 export function Navbar () {
-  const { setChangeClick } = useStore()
-
   return (
     <nav>
 
