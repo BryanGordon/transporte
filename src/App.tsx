@@ -5,7 +5,6 @@ import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Servicios } from './components/Servicios'
 import { Ubicacion } from './components/Ubicacion'
-// import { useStore } from './store/useStore'
 
 function App () {
   /*
