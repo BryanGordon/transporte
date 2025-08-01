@@ -7,18 +7,29 @@ import { Servicios } from './components/Servicios'
 import { Ubicacion } from './components/Ubicacion'
 
 function App () {
-  const animation = {
+  const firstAnimation = {
     y: {
-      duration: 0.5,
+      duration: 0.7,
       repeat: 0,
+      delay: 0,
       type: 'orchestation'
     }
   }
+
+  const lastAnimation = {
+    y: {
+      duration: 0.7, 
+      repeat: 0,
+      delay: 0.5,
+      type: 'orchestation'
+    }
+  }
+
   return (
     <main>
       <Header />
       <motion.section 
-        transition={animation}
+        transition={firstAnimation}
         whileInView={{ 
           y:['0%', '4%', '0%']
         }}
@@ -28,7 +39,7 @@ function App () {
       </motion.section>
 
       <motion.section 
-        transition={animation}
+        transition={lastAnimation}
         whileInView={{ 
           y:['0%', '4%', '0%']
         }}
@@ -38,7 +49,7 @@ function App () {
       </motion.section>
 
       <motion.section
-      transition={animation}
+      transition={lastAnimation}
       whileInView={{
         y: ['0%', '4%', '0%']
       }}
