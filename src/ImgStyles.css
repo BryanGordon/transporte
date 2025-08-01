@@ -1,7 +1,8 @@
 .img-header {
   width: 100vw;
   height: 30vh;
-  object-fit: fill;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
 }
 
 .header-title {
