@@ -7,25 +7,25 @@ export function Navbar () {
       <ul className='nav-item-container'>
 
         <li className='nav-items'>
-          <a href='#home' onClick={() => setChangeClick()}>
+          <a href='#home'>
             Home
           </a>
         </li>
 
         <li className='nav-items'>
-          <a href='#servicios' onClick={() => setChangeClick()}>
+          <a href='#servicios'>
             Servicios
           </a>
         </li>
 
         <li className='nav-items'>
-          <a href='#contactos' onClick={() => setChangeClick()}>
+          <a href='#contactos'>
             Contactos
           </a>
         </li>
 
         <li className='nav-items'>
-          <a href='#ubicacion' onClick={() => setChangeClick()}>
+          <a href='#ubicacion'>
             Ubicación
           </a>
         </li>
