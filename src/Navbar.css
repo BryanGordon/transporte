@@ -13,6 +13,17 @@ nav {
   justify-content: space-around;
 }
 
+a:hover {
+  background-color: #3b8df3;
+  color: #ffffff;
+}
+
 .nav-items {
   color: black;
+  text-align: center;
+  & a {
+    padding: 19px;
+    transition: all ease-in-out 0.35s;
+  }
 }
+/*#919ca9*/
