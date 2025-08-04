@@ -38,3 +38,18 @@ p {
   font-size: 1.1em;
   line-height: 1.7rem;
 }
+
+@media (width <= 731px) {
+  h1 {
+    max-width: none;
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+@media (width <= 460px) {
+  p {
+    text-wrap: balance;
+    text-align: center;
+  }
+}
