@@ -24,6 +24,9 @@ a:hover {
   & a {
     padding: 19px;
     transition: all ease-in-out 0.35s;
+    @media (width <= 418px) {
+      padding: 11px;
+      border-radius: 5px;
+    }
   }
 }
-/*#919ca9*/
